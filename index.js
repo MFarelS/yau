@@ -16,7 +16,7 @@ const {
    waChatKey,
    mentionedJid,
    processTime,
-} = require("@Ramdaniofficial/baileys")
+} = require("@adiwajshing/baileys")
 const brainly = require('brainly-scraper')
 const fs = require('fs')
 const crypto = require('crypto')

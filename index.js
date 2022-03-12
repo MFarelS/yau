@@ -221,7 +221,7 @@ module.exports = Ramdani = async (Ramdani, mek) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 			}
 			const reply = (teks) => {
-			Ramdani.sendMessage(from, teks, text, { thumbnail: thumb, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `New Base By Ramdani Official`,body:"© Creator By Ramdani Official",previewType:"PHOTO",thumbnail:thumb,sourceUrl:`https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`}}})
+			Ramdani.sendMessage(from, teks, text, { thumbnail: thumb, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `New Base By Riyadh`,body:"© Creator By Riyadh",previewType:"PHOTO",thumbnail:thumb,sourceUrl:`https://www.instagram.com/bucin_nimex?r=nametag`}}})
 		}
 		const reply2 = (teks) => {
 Ramdani.sendMessage(from, teks, text, {quoted: mek, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})
@@ -274,7 +274,7 @@ Ramdani.sendMessage(from, teks, text, {quoted: mek, contextInfo: {"forwardingSco
            
 //FAKE TROLI
 
-           const fakedoc = {key: {fromMe: false, participant: `${nomorowner}@s.whatsapp.net`, ...(from ? {remoteJid: "status@broadcast" } : {}) }, message: {documentMessage: {mimetype: 'application/octet-stream', title: `${ucapanFakereply}`, pageCount: 0, fileName: `RamdaniBot`, jpegThumbnail: fs.readFileSync(`./media/foto/thumb.jpg`)}}}
+           const fakedoc = {key: {fromMe: false, participant: `${nomorowner}@s.whatsapp.net`, ...(from ? {remoteJid: "status@broadcast" } : {}) }, message: {documentMessage: {mimetype: 'application/octet-stream', title: `${ucapanFakereply}`, pageCount: 0, fileName: `Riyadh`, jpegThumbnail: fs.readFileSync(`./media/foto/thumb.jpg`)}}}
 			const ftoko = { key: { fromMe: false, 
 			             participant: `0@s.whatsapp.net`, ...(from ? { 
 			             remoteJid: 'status@broadcast' } : {}) }, 
@@ -286,8 +286,8 @@ Ramdani.sendMessage(from, teks, text, {quoted: mek, contextInfo: {"forwardingSco
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official \nRp. 999.999.999`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Riyadh \nRp. 999.999.999`, 
+                            orderTitle: `© Creator By Riyadh`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -298,8 +298,8 @@ const fhidetag = {key : {fromMe:false,
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Riyadh`, 
+                            orderTitle: `© Creator By Riyadh`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -310,8 +310,8 @@ const ftrolMENU = {key : {fromMe:false,
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Riyadh`, 
+                            orderTitle: `© Creator By Riyadh`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -550,8 +550,8 @@ const froxx = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `© Creator Ramdani Official`,
-                 "title": `© Creator Ramdani Official`,
+                 "text": `© Creator Riyadh`,
+                 "title": `© Creator Riyadh`,
                  'jpegThumbnail': fs.readFileSync("./media/foto/thumb.jpg"),
                         }
 	                  } 
@@ -589,7 +589,7 @@ switch(command) {
 //////////////ᴍʏ ᴛᴡɪᴛᴛᴇʀ : https://mobile.twitter.com/Muhamma56633691
 /////////////ᴍʏ ғᴀᴄᴇʙᴏᴏᴋ : https://www.facebook.com/profile.php?id=100055274594084
 ///////////ᴍʏ sᴀᴡᴇʀɪᴀ : https://saweria.co/ramdaniofficial
-////////////ᴍʏ ʟɪɴᴋᴛʀᴇᴇ : https://linktr.ee/ramdaniofficial\n${jam} ${hari} ${tanggal} ${bulan} ${tahun}\n© Creator By Ramdani Official`, thumb, [
+////////////ᴍʏ ʟɪɴᴋᴛʀᴇᴇ : https://linktr.ee/ramdaniofficial\n${jam} ${hari} ${tanggal} ${bulan} ${tahun}\n© Creator By Riyadh`, thumb, [
     //////////////////     {buttonId: `${prefix}${prefix}c`, buttonText: {displayText: `SIMPLE MENU`, }, type: 1, },
        /////////////////////     {buttonId: `${prefix}${prefix}donate`, buttonText: { displayText: `DONATE`, }, type: 1, },
            /// ]); 
@@ -602,11 +602,11 @@ case 'danz':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Riyadh',
  description: `Hai Kak @${sender.split('@')[0]}👋, Silahkan Pilih Menunya Disini\nJangan Spam Ya Kak, Kasih Jeda 5 Detik!!!`,
  sections: [
                      {
-                      "title": `Jangan Lupa Donasi Tod`,
+                      "title": `Pilih Salah Satu Kack!`,
  rows: [
                             {                         
                               "title": "[📝]Rules bot",
@@ -627,27 +627,12 @@ if (isBanned) return reply(mess.banned)
                               "title": "[🛒]Donasi",
                               "description" :"Menampilkan Fitur Donasi Untuk Bot",
                               "rowId": `${prefix}donasi`
-                          },
-                          {
-                        "title": "[🗂️]Script",
-                       "description" :"Menampilkan Fitur Script Bot",
-                       "rowId": `${prefix}sc`
-                           },
-                           {                         
-                              "title": "[🤖]Jadi bot",
-                              "description" :"Menampilkan Fitur Jadi Bot",
-                              "rowId": `${prefix}jadibot`
-                           },                          
+                          },                          
                            {
                         "title": "[📒]Allmenu",
                        "description" :"Menampilkan Fitur Allmenu",
                        "rowId": `${prefix}allmenu`
                            },                                                      
-                           {                         
-                              "title": "[🛒]Store menu",
-                              "description" :"Menampilkan Fitur Menu Store",
-                              "rowId": `${prefix}storemenu`
-                           },
                            {                         
                               "title": "[👥]Group Menu",
                               "description" :"Menampilkan Fitur Menu Grup",
@@ -730,7 +715,7 @@ case 'sm':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Riyadh',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Command nya disini`,
  sections: [
                      {
@@ -777,7 +762,7 @@ case 'topupgame':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Riyadh',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Game nya disini`,
  sections: [
                      {
@@ -814,7 +799,7 @@ case 'topupsaldo':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Riyadh',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Aplikasi nya disini`,
  sections: [
                      {
@@ -851,8 +836,6 @@ case 'allmenu':
 reply(`*hallo kak👋 ${pushname} ${ucapanWaktu}*
 notes = Jangan spam ya kak, kasih jeda 5 detik agar bot tidak delay, okeh kak?
 Bot ini masih baru ngab, banyak fitur2 yg error kek nya 🗿 kalo mau gak error, bikin sendiri aja!!!
-
-
 
 
 *⌜ Grup Menu ⌟* 
@@ -1128,10 +1111,10 @@ break
                 Ramdani.sendMessage(from, grupbot(prefix), text)
 		        break
                 case 'bebantot':
-                reply(`*JANGAN GITU LU*\n*SESAMA BEBAN HARUS SALING*\n*HINA*`)
+                reply(`Jangan Gitu Lu, Sesama Beban Harus Saling Hina!`)
                 break
                 case 'berkat':
-                reply(`*ANJG CUMA MAU BERKAT NYA:V*`)
+                reply(`Cuma mau berkat nya_-`)
                 break
                 case 'donasi2':
 				case 'donate2':
@@ -1158,9 +1141,6 @@ reply(`HALLO KAK, MAU DONASI?
 *Dana:* ${dana}
 *Ovo:* ${ovo}
 *Pulsa:* ${pulsa}
-*Qris:* ${urlqris}
-*Saweria:* ${saweria}
-*Linktree:* ${linktree}`)
 break
 case 'sewabot':
 if (isBanned) return reply(mess.banned)
@@ -1184,87 +1164,6 @@ reply(`━━━━━『 *LIST PREMIUM* 』━━━━━
 ❏ PERMANEN : 150K
 *minat chat owner*`)
 break
-//buysc
-case 'buysc':
-reply(`_*silahkan hubungi owner jika ingin membeli script bot*_\n_*ketik ${prefix}owner untuk mendapatkan nomor owner*_`)
-break
-case 'topupml':
-reply(`*💎DIAMOND ML💎*
-➖➖➖➖➖➖➖➖➖➖➖
-
-39    💎= Rp.9.000
-65    💎= Rp.14.500
-92    💎= Rp.20.000
-133  💎= Rp.29.000
-266  💎= Rp.58.000
-400  💎= Rp.86.000
-534  💎= Rp.115.000
-670  💎= Rp.144.000
-709  💎= Rp.153.000
-735  💎= Rp.158.500
-803  💎= Rp.170.000
-936  💎= Rp.200.000
-1070💎=Rp.229.000
-1342💎=Rp.285.000
-1434💎=Rp.305.000
-1742💎=Rp.370.000
-2700💎=Rp.570.000
- 
-➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
-➖➖➖➖➖➖➖➖➖➖➖`)
-break
-case 'topupff':
-reply(`*💎DIAMOND FREE FIRE💎*
-➖➖➖➖➖➖➖➖➖➖➖
-
-20    💎 3.000
-50    💎 7.000
-70    💎 9.500
-100  💎 13.500
-140  💎 18.500
-210  💎 27.500
-280  💎 37.000
-355  💎 46.000
-425  💎 55.000
-500  💎 65.000
-720  💎 92.500
-860  💎 111.000
-1000💎 129.500
-1075💎 138.000
-1440💎 185.000
-2000💎 250.000
-2720💎 342.500
-3000💎 380.000
-4000💎 500.000
-MM : 28.000
-MB  : 140.000
- 
-➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator by Ramdani Official_*    
-➖➖➖➖➖➖➖➖➖➖➖`)
-break
-case 'topuppubg':
-reply(`➖➖➖➖➖➖➖➖➖➖➖
-
-- 🎟️60 = Rp14.000
-- 🎟️120 = Rp28.000
-- 🎟️240 = Rp56.000
- 
-➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator By Ramdani Official_*    
-➖➖➖➖➖➖➖➖➖➖➖`)
-break
-case 'topupb':
-reply(`*🎟️POINT BLANK🎟️*
-➖➖➖➖➖➖➖➖➖➖➖
-
-_tidak tersedia, ke Indomaret Sono_
- 
-➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
-➖➖➖➖➖➖➖➖➖➖➖`)
-break
 case 'topupgopay':
 reply(`_chat owner_`)
 break
@@ -1277,23 +1176,12 @@ break
 case 'topuppulsa':
 reply(`_beli di warung sono_`)
 break
-//JADIBOT
-case 'jadibot':
-case 'jadibotwa':
-case 'carajadibot':
-reply(`*Jika ingin menjadi bot silahkan kunjungi channel YouTube Ramdani Official*\n*link* : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
-break
 //SOSMET
-//YOUTUBE
-case 'youtube':
-case 'ytb':
-reply(`*nih channel youtube creator, jan lupa subscribe ya*\nhttps://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
-break
 //INSTAGRAM
 case 'intagram':
 case 'ig':
 case 'ige':
-reply(`*nih Instagram creator, jan lupa follow ya*\nhttps://www.instagram.com/muhammadramdani196453`)
+reply(`*nih Instagram creator, jan lupa follow ya*\nhttps://www.instagram.com/bangreyy_54`)
 break
 //OWNER/CREATOR
 //OWNER
@@ -1318,9 +1206,9 @@ case 'pembuatbot':
             case 'powered':
 const vcard2 = 'BEGIN:VCARD2\n'  
             + 'VERSION:3.0\n'  
-            + `FN: Ramdani Official\n`  
+            + `FN: Bang Riyadh\n`  
             + `ORG:sibuk;\n` 
-            + `TEL;type=CELL;type=VOICE;waid=6289512545999:+6289512545999\n`  
+            + `TEL;type=CELL;type=VOICE;waid=${nomorowner}:+${nomorowner}\n`  
             + 'END:VCARD2'  
   Ramdani.sendMessage(from, {displayname: "Jeff", vcard2: vcard2}, MessageType.contact, { quoted: mek})
 titit = 'Hallo kak, itu pembuat ini, jangan di ganggu ya\nbtw mau tau soal apa tentang pembuat bot?'
@@ -1334,22 +1222,8 @@ case 'thanksto':
 case 'tqto':
 case 'tqtq':
 reply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
-• ARUL (MY GURU)
-• MHANKBARBAR (MASTAH)
-• APRILIA
-• ZEEONE OFC
-• DIKA ARDNT
-• RIMURUBOTZ
-• KAHFZXZY
-• LEXXY OFFICIAL
-• HERMAN CHANNEL
-• ABIL BOT
-• KURR XD OFFICIAL
-• DIKA XD
-• SIEGRIN
-• KANNABOT
-• YANZ BOT`)
+• Riyadh (me)
+• Justpiple (mastah)`)
 break
 //FITUR NYAAH BANGGG
 case 'grupmenu':
@@ -1648,10 +1522,9 @@ case 'sc':
 case 'script':
 if (isBanned) return reply(mess.banned)
 reply(`*⌜ Script Bot ⌟* 
-• SC ORI : Ramdani Official
-• RECODE : Ramdani Official
-• LINK DOWN VIA GIT : https://github.com/Ramdaniofficial/v13
-• LINK DOWN VIA YT : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+• SC ORI : justpiple
+• RECODE : Riyadh
+• LINK DOWN VIA GIT : https://github.com/mriyadl22/yau
 break
 //ASUPAN MENU
 case 'asupangeayubi':
@@ -2455,7 +2328,7 @@ if (isBanned) return reply (mess.banned)
 reply(mess.wait)
 anu = await fetchJson (`https://api-aprilia-xyz.herokuapp.com/api/tiktok?url=${args.join(' ')}`)
 buffer = await getBuffer (anu.result.original)
-Ramdani.sendMessage(from, buffer, video, {mimetype: 'video/mp4', quoted: mek, caption: 'SUBS Ramdani Official SU'})
+Ramdani.sendMessage(from, buffer, video, {mimetype: 'video/mp4', quoted: mek, caption: 'Follow Instagram bangreyy_54'})
 break
 /*
 case 'tiktoknowm':
@@ -2481,7 +2354,7 @@ if (!isUrl(args[0]) && !args[0].includes('instagram.com')) return reply('```Inva
 reply(mess.wait)
 anu = await fetchJson(`https://api.dapuhy.ga/api/socialmedia/igdownload?url=${args.join(' ')}&apikey=wf2tghNhfU`)
 buffer = await getBuffer (anu.result.download_url)
-Ramdani.sendMessage(from, buffer, video, {mimetype: 'video/mp4', quoted: mek, caption: '*Subscribe channel Ramdani Official dan follow Instagram riyan_ff12*'})
+Ramdani.sendMessage(from, buffer, video, {mimetype: 'video/mp4', quoted: mek, caption: 'Follow Instagram bangreyy_54'})
 break
 case 'igfoto':
 if (!isUser) return reply(mess.daftar)
@@ -2491,7 +2364,7 @@ if (!isUrl(args[0]) && !args[0].includes('instagram.com')) return reply('```Inva
 reply(mess.wait)
 anu = await fetchJson(`https://api.dapuhy.ga/api/socialmedia/igdownload?url=${args.join(' ')}&apikey=wf2tghNhfU`)
 buffer = await getBuffer (anu.result.download_url)
-Ramdani.sendMessage(from, buffer, video, {mimetype: 'video/mp4', quoted: mek, caption: '*Subscribe channel Ramdani Official dan follow Instagram riyan_ff12*'})
+Ramdani.sendMessage(from, buffer, video, {mimetype: 'video/mp4', quoted: mek, caption: 'Follow Instagram bangreyy_54'})
 break
 case 'playmp3':
 if (!isUser) return reply(mess.daftar)
@@ -2520,7 +2393,7 @@ break
   case 'shadowtext':
   if (!isUser) return reply(mess.daftar)
   if (isBanned) return reply (mess.banned)
-  if (args.length == 0) return reply(`Example: ${prefix + command} Ramdani Official`)
+  if (args.length == 0) return reply(`Example: ${prefix + command} Riyadh`)
   txt = args.join(" ")
   reply(mess.wait)
   buffer = await getBuffer(`https://ogata-api.herokuapp.com/api/oxy/shadow?text=${txt}&apikey=${ogatakey}`)
@@ -2836,7 +2709,7 @@ case 'bc':
              for (let _ of anu) {
              Ramdani.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST ${namabot} 」*\n\n${body.slice(4)}`,
-			"footerText": '© Creator By Ramdani Official',
+			"footerText": '© Creator By Riyadh',
 			"buttons": [
 			{"buttonId": `${prefix}simpelmenu`,
 			"buttonText": {"displayText": "Simple Menu"

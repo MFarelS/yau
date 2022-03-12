@@ -4,7 +4,7 @@ const {
     Presence,
     Mimetype,
     GroupSettingChange
-} = require('@Ramdaniofficial/baileys')
+} = require('@adiwajshing/baileys')
 const fs = require('fs')
 const moment = require('moment-timezone')
 const { banner, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
